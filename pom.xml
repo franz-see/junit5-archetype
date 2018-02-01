@@ -9,12 +9,38 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://github.com/franz-see/junit5-archetype.git</connection>
+        <developerConnection>scm:git:git@github.com:franz-see/junit5-archetype.git</developerConnection>
+        <url>https://github.com/franz-see/junit5-archetype</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>synergian-repo</id>
+            <url>https://raw.github.com/synergian/wagon-git/releases</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray</id>
+            <url>https://api.bintray.com/maven/franz-see/maven-repo/junit5-archetype;publish=1</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <extensions>
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
                 <artifactId>archetype-packaging</artifactId>
                 <version>3.0.1</version>
+            </extension>
+            <extension>
+                <groupId>ar.com.synergian</groupId>
+                <artifactId>wagon-git</artifactId>
+                <version>0.3.0</version>
             </extension>
         </extensions>
         <pluginManagement>
