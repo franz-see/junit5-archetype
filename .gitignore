@@ -23,9 +23,6 @@ hs_err_pid*
 
 # Maven 
 target/
-release.properties
-pom.xml.releaseBackup
-pom.xml.tag
 
 # IntelliJ project files 
 *.iml
