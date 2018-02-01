@@ -25,8 +25,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray</id>
-            <url>https://api.bintray.com/maven/franz-see/maven-repo/junit5-archetype;publish=1</url>
+            <id>bintray-franz-see-maven-repo</id>
+            <name>franz-see-maven-repo</name>
+            <url>https://api.bintray.com/maven/franz-see/maven-repo/junit5-archetype/;publish=1</url>
         </repository>
     </distributionManagement>
 
