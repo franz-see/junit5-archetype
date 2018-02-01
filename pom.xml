@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ph.net.see</groupId>
     <artifactId>junit5-archetype</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <packaging>maven-archetype</packaging>
 
     <name>JUnit5 Maven Archetype</name>
@@ -15,7 +15,7 @@
         <connection>scm:git:https://github.com/franz-see/junit5-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:franz-see/junit5-archetype.git</developerConnection>
         <url>https://github.com/franz-see/junit5-archetype</url>
-        <tag>HEAD</tag>
+        <tag>v0.3</tag>
     </scm>
 
     <pluginRepositories>
